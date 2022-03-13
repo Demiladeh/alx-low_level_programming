@@ -5,7 +5,7 @@
 /**
  * main - determine if number is +ve or -ve
  *
- * Description: program assigns a random number to the variable n each time it runs
+ * Description: program assigns a random number to the variable n each time
  *
  * Return: Always 0 (success)
  */
