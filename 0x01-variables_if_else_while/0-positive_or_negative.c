@@ -5,7 +5,7 @@
 /**
  * main - determine if number is +ve or -ve
  *
- * Description: program assigns a random number to the variable n each time it is executed
+ * Description: program assigns a random number to the variable n each time it runs
  *
  * Return: Always 0 (success)
  */
@@ -18,10 +18,10 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n == 0)
-		printf("%d zero\n", n);
+		printf("%d is zero\n", n);
 	else if (n < 0)
-		printf("%d negative\n", n);
+		printf("%d is negative\n", n);
 	else
-		printf("%d positive\n", n);
+		printf("%d is positive\n", n);
 	return (0);
 }
