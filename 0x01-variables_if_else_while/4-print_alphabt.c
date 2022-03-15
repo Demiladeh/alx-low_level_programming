@@ -1,9 +1,7 @@
 #include <stdio.h>
 /**
  * main - main block
- * 
  * Description: Use 'putchar' to print all letters but letter 'q' and 'e'.
- *
  * Return: 0
  */
 
@@ -18,6 +16,6 @@ int main(void)
 		c++;
 	}
 	putchar('\n');
-	
+
 	return (0);
 }
