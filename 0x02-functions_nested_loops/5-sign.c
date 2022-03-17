@@ -9,6 +9,7 @@
  * -1 if number is negative
  */
 
+int main(void)
 int print_sign(int n)
 {
 	int value;
